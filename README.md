@@ -1,1 +1,1 @@
-# ceramic-craft-store
+# Ceramic craft store
