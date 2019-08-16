@@ -1,14 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from './scenes/Home';
 import Header from './Header';
-import InfoSection from './InfoSection';
+import MasterClass from './scenes/MasterClass';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <InfoSection/>
-    </div>
+    <Router>
+      <div className="App">
+        <Header/>
+        
+        <Route path="/" exact component={Home} />
+        <Route path="/master-class/" component={MasterClass} />
+      </div>
+    </Router>
   );
 }
 
