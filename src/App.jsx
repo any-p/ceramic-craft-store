@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './scenes/Home';
 import Header from './Header';
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default memo(App);
