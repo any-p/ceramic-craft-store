@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  padding: 4px 0 6px 0;
+  padding: 4px 15px 6px;
   background: #191a1b;
   justify-content: space-between;
 }
@@ -16,12 +16,13 @@
 .app-header__logo {
   margin: 0;
   font-size: 28px;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .app-header__link {
   color: #fff;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 @keyframes App-logo-spin {
