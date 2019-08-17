@@ -1,12 +1,13 @@
 import React from 'react';
-// import logo from './logo.svg';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
   return (
     <header className="App-header">
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      <h1 className="company-name">ORGANICA</h1>
+      <Link to="/">
+        <h1 className="company-name">ORGANICA</h1>
+      </Link>
       <a
         className="App-link"
         href="tel: +7 981 956-81-25"
