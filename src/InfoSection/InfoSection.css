@@ -1,4 +1,71 @@
-.bg-lesson {
+.info-section {
+    text-align: center;
     background: url('./ceramic-lesson.jpg');
-    padding: 20px 0 20px;
+    background-color: #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 15px 20px;
+}
+
+.info-section__text {
+    color: #fff;
+}
+
+.dark-section {
+    background: #191a1b;
+    padding: 40px 15px 20px;
+}
+
+.dark-section__text {
+    color: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.light-btn_primary {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0px 10px;
+    position: relative;
+}
+
+.light-btn_primary::before {
+    content: '';
+    background: transparent;
+    box-shadow: 0 0 0 1px white;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: -7px;
+    top: 6px;
+}
+
+.light-btn__text_primary {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 20px 10px;
+    background: #191a1b;
+    z-index: 10;
+    color: #fff;
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+.m-t-50 {
+    margin-top: 50px;
+}
+
+.centralize {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    padding: 0 15px;
 }

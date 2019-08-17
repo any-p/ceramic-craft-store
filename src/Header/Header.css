@@ -4,22 +4,25 @@
   pointer-events: none;
 }
 
-.company-name {
-  margin: 0 10px 5px 10px;
-}
-
-.App-header {
+.app-header {
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-bottom: 1px solid black;
-  padding: 10px 0 0 0;
-  background-color: #ffffff;
-  font-size: calc(10px + 2vmin);
+  padding: 4px 15px 6px;
+  background: #191a1b;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #505050;
+.app-header__logo {
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-header__link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 @keyframes App-logo-spin {

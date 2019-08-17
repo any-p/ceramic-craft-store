@@ -1,7 +1,9 @@
-import React from "react" ;
+import React, { memo } from "react" ;
 
-const MasterClass =() => (
-    <h1>Мастер Классы</h1>
+const MasterClass = () => (
+    <main className="row">
+        <h1>Мастер Классы</h1>
+    </main>
 )
 
-export default MasterClass;
+export default memo(MasterClass);
