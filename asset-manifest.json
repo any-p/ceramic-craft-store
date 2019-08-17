@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ceramic-craft-store/static/css/main.20e6598f.chunk.css",
-    "main.js": "/ceramic-craft-store/static/js/main.a13101d7.chunk.js",
-    "main.js.map": "/ceramic-craft-store/static/js/main.a13101d7.chunk.js.map",
+    "main.css": "/ceramic-craft-store/static/css/main.a5b392fd.chunk.css",
+    "main.js": "/ceramic-craft-store/static/js/main.124c93d0.chunk.js",
+    "main.js.map": "/ceramic-craft-store/static/js/main.124c93d0.chunk.js.map",
     "runtime~main.js": "/ceramic-craft-store/static/js/runtime~main.f9900af8.js",
     "runtime~main.js.map": "/ceramic-craft-store/static/js/runtime~main.f9900af8.js.map",
-    "static/js/2.7af02deb.chunk.js": "/ceramic-craft-store/static/js/2.7af02deb.chunk.js",
-    "static/js/2.7af02deb.chunk.js.map": "/ceramic-craft-store/static/js/2.7af02deb.chunk.js.map",
+    "static/js/2.818c7343.chunk.js": "/ceramic-craft-store/static/js/2.818c7343.chunk.js",
+    "static/js/2.818c7343.chunk.js.map": "/ceramic-craft-store/static/js/2.818c7343.chunk.js.map",
     "index.html": "/ceramic-craft-store/index.html",
-    "precache-manifest.a9483370439c0301ed98678f0c9d5de1.js": "/ceramic-craft-store/precache-manifest.a9483370439c0301ed98678f0c9d5de1.js",
+    "precache-manifest.fa4ebac5a6f3e04adf745c01fcaa9c93.js": "/ceramic-craft-store/precache-manifest.fa4ebac5a6f3e04adf745c01fcaa9c93.js",
     "service-worker.js": "/ceramic-craft-store/service-worker.js",
-    "static/css/main.20e6598f.chunk.css.map": "/ceramic-craft-store/static/css/main.20e6598f.chunk.css.map"
+    "static/css/main.a5b392fd.chunk.css.map": "/ceramic-craft-store/static/css/main.a5b392fd.chunk.css.map",
+    "static/media/InfoSection.css": "/ceramic-craft-store/static/media/ceramic-lesson.97e8d8d3.jpg"
   }
 }

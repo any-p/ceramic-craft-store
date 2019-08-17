@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ceramic-craft-store/precache-manifest.a9483370439c0301ed98678f0c9d5de1.js"
+  "/ceramic-craft-store/precache-manifest.fa4ebac5a6f3e04adf745c01fcaa9c93.js"
 );
 
 self.addEventListener('message', (event) => {
