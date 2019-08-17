@@ -1,4 +1,13 @@
-.bg-lesson {
+.info-section {
+    text-align: center;
     background: url('./ceramic-lesson.jpg');
+    background-color: #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding: 20px 0 20px;
+}
+
+.info-section__text {
+    color: #fff;
 }

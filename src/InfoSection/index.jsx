@@ -4,8 +4,8 @@ import './InfoSection.css';
 
 function InfoSection() {
   return (
-    <section className="bg-lesson">
-      <h1>Мастер классы</h1>
+    <section className="info-section">
+      <h1 className="info-section__text">Мастер классы</h1>
       <Link to="/master-class/">Записаться на мастер класс</Link>
     </section>
   );

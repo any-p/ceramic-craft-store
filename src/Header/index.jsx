@@ -4,12 +4,12 @@ import './Header.css';
 
 function Header() {
   return (
-    <header className="App-header">
-      <Link to="/">
-        <h1 className="company-name">ORGANICA</h1>
+    <header className="app-header">
+      <Link to="/" className="app-header__link">
+        <h1 className="app-header__logo">Organica Art</h1>
       </Link>
       <a
-        className="App-link"
+        className="app-header__link"
         href="tel: +7 981 956-81-25"
         target="_blank"
         rel="noopener noreferrer"
